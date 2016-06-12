@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="sony"
+           fetch="https://github.com/sonyxperiadev/" />
+
+  <project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/common/hardware/qcom" name="SonyAosp/device_sony_common_hardware_qcom" groups="device" remote="github" revision="android-9.0" />
+
+  <project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/kugo" name="SonyAosp/device_sony_kugo" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/blanc" name="SonyAosp/device_sony_blanc" groups="device" remote="github" revision="android-9.0" />
+
+  <project path="device/sony/tone" name="SonyAosp/device_sony_tone" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/dora" name="SonyAosp/device_sony_dora" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/kagura" name="SonyAosp/device_sony_kagura" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/keyaki" name="SonyAosp/device_sony_keyaki" groups="device" remote="github" revision="android-9.0" />
+
+  <project path="device/sony/yoshino" name="SonyAosp/device_sony_yoshino" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/maple" name="SonyAosp/device_sony_maple" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/lilac" name="SonyAosp/device_sony_lilac" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/poplar" name="SonyAosp/device_sony_poplar" groups="device" remote="github" revision="android-9.0" />
+
+  <project path="device/sony/nile" name="SonyAosp/device_sony_nile" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/pioneer" name="SonyAosp/device_sony_pioneer" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/discovery" name="SonyAosp/device_sony_discovery" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/voyager" name="SonyAosp/device_sony_voyager" groups="device" remote="github" revision="android-9.0" />
+
+  <project path="device/sony/tama" name="SonyAosp/device_sony_tama" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/apollo" name="SonyAosp/device_sony_apollo" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/akari" name="SonyAosp/device_sony_akari" groups="device" remote="github" revision="android-9.0" />
+  <project path="device/sony/akatsuki" name="SonyAosp/device_sony_akatsuki" groups="device" remote="github" revision="android-9.0" />
+
+  <project path="hardware/sony/fingerprint" name="SonyAosp/platform_hardware_sony_fingerprint" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/thermanager" name="SonyAosp/platform_hardware_sony_thermanager" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/timekeep" name="SonyAosp/platform_hardware_sony_timekeep" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/macaddrsetup" name="SonyAosp/platform_hardware_sony_macaddrsetup" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/projection" name="vendor-sony-oss-projection" groups="device" remote="sony" revision="master" />
+  <project path="hardware/sony/transpower" name="transpower" groups="device" remote="sony" revision="master" />
+  <project path="hardware/sony/cash" name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
+
+  <project path="kernel/sony/msm-4.9" name="SonyAosp/kernel" groups="device" remote="github" revision="aosp/LE.UM.2.3.2.r1.4" />
+  <project path="kernel/sony/msm-4.9/arch/arm64/configs/sony" name="kernel-defconfig" groups="device" remote="sony" revision="aosp/LE.UM.2.3.2.r1.4" />
+  <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LA.UM.7.3.r1" />
+  <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.7.3.r1" />
+  <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="sony" revision="aosp/LA.UM.7.3.r1" />
+
+  <project path="packages/apps/ExtendedSettings" name="SonyAosp/platform_packages_apps_ExtendedSettings" groups="device" remote="github" revision="master" />
+
+  <project path="vendor/oss/release-keys" name="release-keys" remote="sony" revision="master" />
+  <project path="vendor/oss/qcrilam" name="QcRilAm" groups="device" remote="sony" revision="master" />
+  <project path="vendor/oss/interfaces"  name="vendor-oss-interfaces" remote="sony" revision="master" />
+  <project path="vendor/broadcom/wlan" name="vendor-broadcom-wlan" groups="device" remote="sony" revision="master" />
+  <project path="vendor/nxp/" name="vendor-nxp" groups="device" remote="sony" revision="master" />
+  <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCProject/NXPNFCC_FW" groups="device" remote="github" revision="master" />
+  <project path="vendor/qcom/opensource/bluetooth" name="vendor-qcom-opensource-bluetooth" groups="device" remote="sony" revision="master" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="sony" revision="aosp/LA.UM.7.3.r1" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
+  </project>
+
+</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="build/make" name="SonyAosp/platform_build" groups="pdk" remote="github" revision="android-9.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="SonyAosp/platform_build_soong" groups="pdk,tradefed" remote="github" revision="android-9.0" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bionic" name="SonyAosp/platform_bionic" groups="pdk" remote="github" revision="android-9.0" />
+  <!--<project path="bootable/recovery" name="omnirom/android_bootable_recovery" groups="pdk" remote="github" revision="android-9.0" />-->
+
+  <project path="external/exfat" name="relan/exfat" groups="device" remote="github" revision="master" />
+  <project path="external/tinycompress" name="SonyAosp/platform_external_tinycompress" groups="pdk" remote="github" revision="android-9.0" />
+
+  <project path="frameworks/av" name="SonyAosp/platform_frameworks_av" groups="pdk" remote="github" revision="android-9.0" />
+  <project path="frameworks/base" name="SonyAosp/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-9.0" />
+  <project path="frameworks/native" name="SonyAosp/platform_frameworks_native" groups="pdk" remote="github" revision="android-9.0" />
+  <project path="frameworks/support" name="SonyAosp/platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-9.0" />
+
+  <project path="hardware/nxp/nfc" name="SonyAosp/platform_hardware_nxp_nfc" groups="pdk" remote="github" revision="android-9.0" />
+  <project path="hardware/qcom/bootctrl" name="SonyAosp/platform_hardware_qcom_bootctrl" groups="pdk-qcom" remote="github" revision="android-9.0" />
+  <project path="hardware/qcom/audio" name="SonyAosp/platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="android-9.0" />
+  <project path="hardware/qcom/camera" name="SonyAosp/platform_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="github" revision="aosp/LA.UM.6.4.r1" />
+  <project path="hardware/qcom/dataservices" name="SonyAosp/platform_hardware_qcom_dataservices" groups="device" remote="github" revision="master" />
+  <project path="hardware/qcom/display/sde" name="SonyAosp/platform_hardware_qcom_display-caf" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="aosp/LA.UM.7.3.r1" />
+  <project path="hardware/qcom/display/msmfb" name="SonyAosp/platform_hardware_qcom_display-caf" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="aosp/LA.UM.6.3.r1" />
+  <project path="hardware/qcom/location" name="SonyAosp/platform_hardware_qcom_location" remote="github" revision="android-9.0" />
+  <project path="hardware/qcom/media" name="SonyAosp/platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="android-9.0" />
+
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="SonyAosp/platform_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="github" revision="android-9.0" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+  </project>
+  <project path="hardware/qcom/sdm845/gps" name="SonyAosp/platform_hardware_qcom_sdm845_gps" groups="qcom_sdm845" remote="github" revision="android-9.0" />
+  <project path="hardware/qcom/sdm845/media" name="SonyAosp/platform_hardware_qcom_sdm845_media" groups="qcom_sdm845" remote="github" revision="android-9.0" />
+
+  <project path="packages/apps/Bluetooth" name="SonyAosp/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-9.0" />
+  <project path="packages/apps/Camera2" name="SonyAosp/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="android-9.0" />
+  <project path="packages/apps/Settings" name="SonyAosp/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="android-9.0" />
+  <project path="packages/providers/MediaProvider" name="SonyAosp/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-9.0" />
+
+  <project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="android-9.0" />
+  <project path="system/vold" name="SonyAosp/platform_system_vold" groups="pdk" remote="github" revision="android-9.0" />
+
+  <project path="vendor/sonyaosp" name="SonyAosp/platform_vendor_sonyaosp" groups="device" remote="github" revision="android-9.0" />
+  <!--<project path="vendor/qcom/opensource/cryptfs_hw" name="SonyAosp/vendor_qcom_opensource_cryptfs_hw" groups="device" remote="github" revision="android-9.0" />-->
+
+</manifest>
