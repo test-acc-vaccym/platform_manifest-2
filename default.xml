@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-8.1.0_r40"
            remote="aosp"
@@ -620,5 +620,10 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <include name="sonyaosp/remove.xml" />
+  <include name="sonyaosp/sony.xml" />
+  <include name="sonyaosp/aosp.xml" />
+  <include name="sonyaosp/opengapps.xml" />
 
 </manifest>
