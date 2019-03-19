@@ -31,9 +31,9 @@
   <project path="device/sony/discovery" name="SonyAosp/device_sony_discovery" groups="device" remote="github" revision="android-9.0" />
   <project path="device/sony/voyager" name="SonyAosp/device_sony_voyager" groups="device" remote="github" revision="android-9.0" />
 
-  <project path="device/sony/ganges" name="device_sony_ganges" groups="device" remote="sony" revision="master" />
-  <project path="device/sony/kirin" name="device_sony_kirin" groups="device" remote="sony" revision="master" />
-  <project path="device/sony/mermaid" name="device_sony_mermaid" groups="device" remote="sony" revision="master" />
+  <project path="device/sony/ganges" name="device-sony-ganges" groups="device" remote="sony" revision="master" />
+  <project path="device/sony/kirin" name="device-sony-kirin" groups="device" remote="sony" revision="master" />
+  <project path="device/sony/mermaid" name="device-sony-mermaid" groups="device" remote="sony" revision="master" />
 
   <project path="device/sony/tama" name="SonyAosp/device_sony_tama" groups="device" remote="github" revision="android-9.0" />
   <project path="device/sony/apollo" name="SonyAosp/device_sony_apollo" groups="device" remote="github" revision="android-9.0" />
