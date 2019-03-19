@@ -35,11 +35,9 @@
   <project path="hardware/qcom/location" name="SonyAosp/platform_hardware_qcom_location" remote="github" revision="android-9.0" />
   <project path="hardware/qcom/media" name="SonyAosp/platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="android-9.0" />
 
-  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="SonyAosp/platform_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="github" revision="android-9.0" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
-  </project>
-  <project path="hardware/qcom/sdm845/gps" name="SonyAosp/platform_hardware_qcom_sdm845_gps" groups="qcom_sdm845" remote="github" revision="android-9.0" />
-  <project path="hardware/qcom/sdm845/media" name="SonyAosp/platform_hardware_qcom_sdm845_media" groups="qcom_sdm845" remote="github" revision="android-9.0" />
+  <project path="hardware/qcom/data/ipacfg-mgr/sdm845" name="SonyAosp/platform_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="github" revision="android-9.0" />
+  <project path="hardware/qcom/gps" name="SonyAosp/platform_hardware_qcom_sdm845_gps" groups="qcom_sdm845" remote="github" revision="android-9.0" />
+  <project path="hardware/qcom/media/sdm845" name="SonyAosp/platform_hardware_qcom_sdm845_media" groups="qcom_sdm845" remote="github" revision="android-9.0" />
 
   <project path="packages/apps/Bluetooth" name="SonyAosp/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-9.0" />
   <project path="packages/apps/Camera2" name="SonyAosp/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="android-9.0" />
